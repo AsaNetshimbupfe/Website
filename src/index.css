@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+
+
+@layer base{
+    
+        body {
+            font-family: 'Roboto Variable', sans-serif;
+          }
+        }
+
+        /* @utility flex-center{
+           flex items-center justify-center;
+          
+        } */
+
+
