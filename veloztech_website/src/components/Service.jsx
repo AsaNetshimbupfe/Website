@@ -27,16 +27,20 @@ const getIconComponent = (iconName) => {
 
 export function Service() {
   return (
-    <section id="service" className={`${styles.paddingY} ${styles.flexCenter} flex-col relative `}>
-    <div className="">
-      <div className="">
+    
+       <section className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-[#ffffff] rounded-[20px] box-shadow`}>
+      
+    <div className="w-full flex justify-between items-center flex-col sm:mb-16 mb-6 relative z-[1]">
+      
         <h3 className={`${styles.heading3}`}>Services</h3>
-        <p className="font-poppins font-medium  xs:text-[48px] text-[70px] text-[#10323c] xs:leading-[176.8px] leading-[66.8px] mr-70 mb-20">
+        <p className="font-poppins font-medium  xs:text-[48px] text-[70px] text-[#10323c] xs:leading-[176.8px] leading-[66.8px] mr-10 ">
           It’s not about limitations, but this is something about what we focus on.
       </p>
-      </div>
+        
+      
 
       <div className="mt-10 bg-white px-4">
+        
   <div className="grid grid-cols-1 gap-x-4 gap-y-6 md:grid-cols-2 xl:grid-cols-4 max-w-7xl mx-auto items-center">
    {service.map((item) => {
   const IconComponent = getIconComponent(item.icon);

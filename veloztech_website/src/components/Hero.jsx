@@ -1,7 +1,7 @@
 import styles from "../style";
 // import { discount, robot } from "../assets";
 //import { discount} from "../assets/images/Discount.svg";
-import robot from "../assets/hero_image.png";
+import heroImage from "../assets/images/hero_image.png";
 // import GetStarted from "../assets/images";
 
 const Hero = () => {
@@ -17,7 +17,7 @@ const Hero = () => {
         </div> */}
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className="flex-1 font-poppins font-bold ss:text-[72px] text-9xl text-[#10323C] ss:leading-[100.8px] leading-[120px] space-x-9">
+          <h1 className="flex-1 font-poppins font-bold ss:text-[72px] text-5xl md:text-9xl lg:leading-[120px] text-[#10323C] ss:leading-[100.8px] leading-[70px] space-x-9">
             Intelligent solutions <br className="sm:block hidden tracking-wide" />{" "}
             <span className="text-gradient">for a smarter</span>{" "}
           </h1>
@@ -37,7 +37,7 @@ const Hero = () => {
       </div>
 
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
-        <img src={robot} alt="billing" className="w-2xl h-2xl relative z-[5]" />
+        <img src={heroImage} alt="billing" className="w-2xl h-2xl relative z-[5]" />
 
         {/* gradient start */}
         <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />

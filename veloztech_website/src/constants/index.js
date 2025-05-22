@@ -1,8 +1,8 @@
 // // // import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
 
-import testimonialImage01 from '../assets/testimonialImage01.jpg';
-import testimonialImage02 from '../assets/testimonialImage02.jpg';
-import testimonialImage03 from '../assets/testimonialImage03.svg';
+import testimonialImage01 from '../assets/images/testimonialImage01.jpg';
+import testimonialImage02 from '../assets/images/testimonialImage02.jpg';
+import testimonialImage03 from '../assets/images/testimonialImage03.svg';
 
 
 import facebook from "../assets/images/facebook.svg";
@@ -10,10 +10,10 @@ import instagram from "../assets/images/instagram.svg";
 import linkedin from "../assets/images/linkedin.svg";
 import twitter from "../assets/images/twitter.svg";
 
-import airbnb from '../assets/Airbnb_Logo_Bélo.svg'
-import uber from '../assets/Uber_logo_2018.svg'
-import Stripe from '../assets/Stripe_Logo,_revised_2016.svg'
-import OpenAI from '../assets/OpenAI_logo_2025_(wordmark).svg'
+import airbnb from '../assets/images/Airbnb_Logo_Bélo.svg'
+import uber from '../assets/images/Uber_logo_2018.svg'
+import Stripe from '../assets/images/Stripe_Logo,_revised_2016.svg'
+import OpenAI from '../assets/images/OpenAI_logo_2025_(wordmark).svg'
 
 import { MdOutlineWebStories } from "react-icons/md"; 
 import { MdOutlineBusinessCenter } from "react-icons/md"; 
@@ -23,84 +23,40 @@ import { MdSatelliteAlt } from "react-icons/md";
 
 console.log(instagram); // should log a path like "/assets/images/instagram.svg"
 
-
-// // import airbnb from "./images/airbnb.png";
-// // import binance from "./images/binance.png";
-// // import coinbase from "./images/coinbase.png";
-// // import dropbox from "./images/dropbox.png";
-// // import send from "./images/send.png";
-// // import shield from "./images/shield.png";
-// // import star from "./images/star.png";
-
  export const navLinks = [
    {
      id: "home",
      title: "Home",
+     path:"/"
    },
    {
      id: "service",
      title: "Our Service",
+     path:"/"
    },
    {
      id: "expertise",
      title: "Our Expertise",
+     path:"/"
    },
    {
      id: "testimonials",
      title: "Testimonials",
+     path:"/"
    },
    {
      id: "clients",
      title: "Clients",
+     path:"/"
    },
     {
      id: "aboutUs",
-     title: "About Us",
+     title: "Contact Us",
+     path:"/ContactUs"
+     
    },
+   
  ];
-
-// export const features = [
-//   {
-//     id: "feature-1",
-//     icon: star,
-//     title: "Rewards",
-//     content:
-//       "The best credit cards offer some tantalizing combinations of promotions and prizes",
-//   },
-//   {
-//     id: "feature-2",
-//     icon: shield,
-//     title: "100% Secured",
-//     content:
-//       "We take proactive steps make sure your information and transactions are secure.",
-//   },
-//   {
-//     id: "feature-3",
-//     icon: send,
-//     title: "Balance Transfer",
-//     content:
-//       "A balance transfer credit card can save you a lot of money in interest charges.",
-//   },
-// ];
-
-
-// export const stats = [
-//   {
-//     id: "stats-1",
-//     title: "User Active",
-//     value: "3800+",
-//   },
-//   {
-//     id: "stats-2",
-//     title: "Trusted by Company",
-//     value: "230+",
-//   },
-//   {
-//     id: "stats-3",
-//     title: "Transaction",
-//     value: "$230M+",
-//   },
-// ];
 
 export const footerLinks = [
  {
@@ -256,27 +212,6 @@ export const clients = [
 
     },
 ];
-// export const clients = [
-//   {
-//     id: "client-1",
-//     logo: airbnb,
-//   },
-//   {
-//     id: "client-2",
-//     logo: binance,
-//   },
-//   {
-//     id: "client-3",
-//     logo: coinbase,
-//   },
-//   {
-//     id: "client-4",
-//     logo: dropbox,
-   //},
-//];
-
-
-
 
 export const feedback = [
   {
@@ -314,21 +249,21 @@ export const service = [
     icon:"BsFingerprint",
     className: "bg-[#DDCEFD]",
     title: "Smart Security System",
-    description:"Advance setup that uses internet-connected devices and automation technology to monitor and protect homes or businesses.",
+    description:"Advance setup that uses internet-connected devices and automation technology to monitor and protect homes or businesses vehicles and infrastructure.",
     src:""
 }, 
 {
     id: 2,
     icon:"GiPiggyBank",
     title: "Financial System",
-    description:"Advanced, technology-driven approach to banking that leverages artificial intelligence (AI), machine learning (ML).",
+    description:"Advanced, technology-driven approach to banking that leverages artificial intelligence (AI), machine learning (ML) vehicles and infrastructure.",
     src:""
 }, 
 {
     id: 3,
     icon:"MdSatelliteAlt",
     title: "Telecommunication",
-    description:"Devices and systems that use connectivity, data processing, and automation to operate more efficiently and intelligently, intervention.",
+    description:"Devices and systems that use connectivity, data processing, and automation to operate more efficiently and intelligently, vehicles and infrastructure.",
     src:""
 }, 
 {
@@ -356,6 +291,13 @@ export const service = [
     id: 7,
     icon:"MdOutlineWebStories",
     title: "Development",
+    description:"Our tools, systems, and innovations that improve the movement of people and goods. It spans everything from vehicles and infrastructure.",
+    src:""
+},
+{
+    id: 7,
+    icon:"GiTruck",
+    title: "Logistics",
     description:"Our tools, systems, and innovations that improve the movement of people and goods. It spans everything from vehicles and infrastructure.",
     src:""
 },

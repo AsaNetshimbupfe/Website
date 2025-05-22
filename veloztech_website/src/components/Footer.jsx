@@ -31,7 +31,7 @@ const Footer = () => (
               {footerlink.links.map((link, index) => (
                 <li
                   key={link.name}
-                  className={`font-poppins font-medium text-[16px] leading-[20px] text-dimWhite hover:text-secondary cursor-pointer
+                  className={`font-poppins font-normal text-[14px] leading-[20px] text-dimWhite hover:text-secondary cursor-pointer
                     text-white text-sm mb-2 hover:text-orange-500
                     ${
                     index !== footerlink.links.length - 1 ? "mb-4" : "mb-0"
@@ -51,7 +51,7 @@ const Footer = () => (
       Ⓒ 2025 VelozTech. All Rights Reserved.
       </p>
 
-      <div className="flex flex-row md:mt-0 mt-6 text-amber-400">\
+      <div className="flex flex-row md:mt-0 mt-6 text-amber-400">
         
         {socialMedia.map((social, index) => (
           <img

@@ -3,8 +3,8 @@ import styles from "../style";
 import FeedbackCard from "./FeedbackCard";
 
 const Testimonials = () => (
-  <section id="testimonials" className={`${styles.paddingY} ${styles.flexCenter} flex-col relative `}>
-    <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient bottom-40" />
+  <section id="/testimonials" className={`${styles.paddingY} ${styles.flexCenter} flex-col relative `}>
+    
 <h3 className={`${styles.heading3}`}>Testimonials</h3>
     <div className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]">
        
